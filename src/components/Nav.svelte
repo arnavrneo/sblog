@@ -34,7 +34,8 @@
 	<ul class="ml-[-0.60rem] flex">
 		<li>
 			<NavLink href="/">
-				<svg style="color: white" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-9 w-9 p-1 ring-orange-400" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" fill="white"></path> <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" fill="white"></path> </svg>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 p-1 ring-orange-400" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" /> <circle cx="12" cy="12" r="7" /> </svg>
+				
 			</NavLink>
 		</li>
 		<li>
@@ -93,7 +94,7 @@
 		</a>
 		<button
 			aria-label="Toggle Dark Mode"
-			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg ring-sky-400
+			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg ring-orange-400
 			transition-all hover:ring-2 dark:bg-neutral-900 ring-orange-400"
 			on:click={toggleDarkMode}
 		>
