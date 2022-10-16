@@ -46,20 +46,14 @@
 				This is
 
 				<span
-					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500"
+					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-sky-500"
 				>
-					<span class="relative text-yellow-400 skew-y-3">{SITE_TITLE}</span>
+					<span class="relative text-neutral-900 skew-y-3">{SITE_TITLE}</span>
 				</span>
 				!
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				An opinionated blog starter for <span class="font-semibold"
-					>SvelteKit + Tailwind + Netlify.</span
-				>
-				Refreshed
-				<a href="https://github.com/sveltejs/kit/discussions/5774"
-					>the great SvelteKit redesign of Summer 2022</a
-				>
+				write what you want to write.
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
 				<a href={REPO_URL}>View source here!</a>
