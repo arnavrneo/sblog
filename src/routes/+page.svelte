@@ -48,7 +48,7 @@
 				<span
 					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 "
 				>
-					<span class="relative text-white skew-y-3 skew-y-3">{SITE_TITLE}</span>
+					<span class="relative text-slate-300 skew-y-3 skew-y-3">{SITE_TITLE}</span>
 				</span>
 				!
 			</h1>
