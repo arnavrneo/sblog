@@ -70,8 +70,8 @@
 		</a> -->
 		<!-- Github -->
 		<a
-			class="rounded-lg text-gray-700 hover:bg-yellow-200 dark:text-gray-200
-			dark:hover:bg-yellow-800"
+			class="rounded-lg text-gray-700 hover:ring-orange-400 dark:text-gray-200
+			dark:hover:ring-orange-400"
 			href={REPO_URL}
 			aria-label="GitHub source"
 		>
@@ -93,8 +93,8 @@
 		</a>
 		<button
 			aria-label="Toggle Dark Mode"
-			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-400 ring-sky-400
-			transition-all hover:ring-2 dark:bg-yellow-800"
+			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg ring-sky-400
+			transition-all hover:ring-2 dark:bg-neutral-900 ring-orange-400"
 			on:click={toggleDarkMode}
 		>
 			{#if isDark}
