@@ -74,12 +74,12 @@
 
 <section class="flex flex-col items-start justify-center max-w-2xl px-4 mx-auto mb-16 sm:px-8">
 	<h1 class="mb-4 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
-		Blog
+		Articles
 	</h1>
 	<p class="mb-4 text-gray-600 dark:text-gray-400">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sunt reprehenderit alias rerum
-		dolor impedit. In total, I've written {items.length} articles on my blog. Use the search below to
-		filter by title.
+		Welcome to the Article section! <br/>
+		There are currently {items.length} articles.  <br/>
+		Use the search below to filter by title.
 	</p>
 	<div class="relative w-full mb-4">
 		<input
@@ -135,8 +135,8 @@
 		<h3 class="mt-8 mb-4 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 			Most Popular
 		</h3>
-		<IndexCard href="/welcome" title="Welcome to swyxkit!" stringData="123,456 views">
-			This is swyx's preferred starter for Svelte projects!
+		<IndexCard href="/interstellar" title="Interstellar">
+			About Interstellar
 		</IndexCard>
 
 		<h3 class="mt-8 mb-4 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
