@@ -26,7 +26,7 @@
 
 <nav
 	class="relative mx-auto flex w-full max-w-2xl items-center justify-between border-gray-200
-	bg-gray-50 bg-opacity-60 py-8 text-gray-900 dark:border-gray-700 dark:bg-gray-900
+	bg-gray-50 bg-opacity-60 py-8 text-gray-900 dark:border-gray-700 dark:bg-neutral-900
 	dark:text-gray-100 sm:pb-16"
 >
 	<a href="#skip" class="skip-nav">Skip to content</a>
@@ -91,8 +91,8 @@
 		</a>
 		<button
 			aria-label="Toggle Dark Mode"
-			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg bg-yellow-400 ring-yellow-400
-			transition-all hover:ring-2 dark:bg-yellow-800"
+			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg bg-sky-700 ring-sky-400
+			transition-all hover:ring-2 dark:bg-sky-700"
 			on:click={toggleDarkMode}
 		>
 			{#if isDark}
