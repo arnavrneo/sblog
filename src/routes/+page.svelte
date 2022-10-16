@@ -111,5 +111,4 @@
 			></a
 		>
 	</section>
-	<Newsletter />
 </div>
