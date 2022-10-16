@@ -8,6 +8,9 @@ module.exports = {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			fontFamily: {
+				'montserrat': ['Montserrat']
+			},
 			typography: (theme) => ({
 				DEFAULT: {
 					css: {
