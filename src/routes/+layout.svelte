@@ -1,14 +1,70 @@
 <script>
-	import '../tailwind.css';
-	import Nav from '../components/Nav.svelte';
-	import { MY_TWITTER_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig';
+    import '../tailwind.css';
+    import Nav from '../components/Nav.svelte';
+    import { MY_TWITTER_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig';
+    import { onMount } from 'svelte';
+
+    // Getting The Current Date & Time And Setting It
+    let currentDateTime = new Date();
+
+    onMount(() => {
+        const interval = setInterval(() => {
+            currentDateTime = new Date();
+        }, 1000);
+
+        return () => {
+            clearInterval(interval);
+        };
+    });
+
+    function getWeekDay(c) {
+        let daysList = [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ];
+        return daysList[c.getUTCDay()];
+    }
+    function getMonth(c) {
+        let monthsList = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ];
+        return monthsList[c.getUTCMonth()];
+    }
+    function getDate(c) {
+        return c.getUTCDate();
+    }
+    function getHour(c) {
+        return c.getUTCHours() % 12 || 12;
+    }
+    function getMinute(c) {
+        return c.getUTCMinutes() < 10 ? "0" + c.getUTCMinutes() : c.getUTCMinutes();
+    }
+    function getMeridiem(c) {
+        return c.getUTCHours() < 12 ? "AM" : "PM";
+    }
+    function getSeconds(c) {
+        return c.getUTCSeconds();
+    }
 </script>
 
 <svelte:head>
-	<link
-		rel="alternate"
-		type="application/rss+xml"
-		title={'RSS Feed for ' + SITE_TITLE}
+    <link rel="alternate" type="application/rss+xml" title={'RSS Feed for ' + SITE_TITLE}
 		href="/rss.xml"
 	/>
 </svelte:head>
@@ -40,5 +96,9 @@
 	</div>
 	<p class="prose px-4 dark:prose-invert sm:px-8">
 		<small>&copy; Copyright 2022, scifiblog</small>
+		 <div class="date-time">
+        <span class="date">{getWeekDay(currentDateTime).substr(0, 3)} {getMonth(currentDateTime).substr(0, 3)} {getDate(currentDateTime)}</span>
+        <span class="time">{getHour(currentDateTime)}:{getMinute(currentDateTime)}:{getSeconds(currentDateTime)} {getMeridiem(currentDateTime)}</span>
+    </div>
 	</p>
 </footer>
