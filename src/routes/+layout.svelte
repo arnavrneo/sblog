@@ -13,10 +13,10 @@
 	/>
 </svelte:head>
 
-<div class="flex flex-col justify-center bg-gray-50 px-4 dark:bg-gray-900 sm:px-8">
+<div class="flex flex-col justify-center bg-gray-50 px-4 dark:bg-neutral-900 sm:px-8">
 	<Nav />
 </div>
-<main class="flex flex-col justify-center bg-gray-50 px-4 dark:bg-gray-900 sm:px-8">
+<main class="flex flex-col justify-center bg-gray-50 px-4 dark:bg-neutral-900 sm:px-8">
 	<slot />
 </main>
 
@@ -26,20 +26,8 @@
 		<div class="flex flex-col space-y-4">
 			<a class="text-gray-500 transition hover:text-gray-300" href="/">Home</a>
 			<a class="text-gray-500 transition hover:text-gray-300" href="/about">About</a>
-			<a class="text-gray-500 transition hover:text-gray-300" href="/#newsletter">Newsletter</a>
-			<a class="text-gray-500 transition hover:text-gray-300" href="/rss.xml" rel="external">
-				RSS
-			</a>
 		</div>
 		<div class="flex flex-col space-y-4">
-			<a
-				class="text-gray-500 transition hover:text-gray-300"
-				target="_blank"
-				rel="noopener noreferrer"
-				href={'https://twitter.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}
-			>
-				Twitter
-			</a>
 			<a
 				class="text-gray-500 transition hover:text-gray-300"
 				target="_blank"
@@ -47,14 +35,6 @@
 				href={REPO_URL}
 			>
 				GitHub
-			</a>
-			<a
-				class="text-gray-500 transition hover:text-gray-300"
-				target="_blank"
-				rel="noopener noreferrer"
-				href={MY_YOUTUBE}
-			>
-				YouTube
 			</a>
 		</div>
 	</div>
