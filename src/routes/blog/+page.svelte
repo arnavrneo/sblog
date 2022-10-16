@@ -77,9 +77,8 @@
 		Articles
 	</h1>
 	<p class="mb-4 text-gray-600 dark:text-gray-400">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sunt reprehenderit alias rerum
-		dolor impedit. In total, I've written {items.length} articles on my blog. Use the search below to
-		filter by title.
+		Welcome to the Article section. There are currently {items.length} articles. Want to search? Use the 
+		below search bar to filter the article by the title.
 	</p>
 	<div class="relative w-full mb-4">
 		<input
