@@ -2,19 +2,6 @@
 	import '../tailwind.css';
 	import Nav from '../components/Nav.svelte';
 	import { MY_TWITTER_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig';
-	
-	var span = document.getElementById('span');
-
-function time() {
-  var d = new Date();
-  var s = d.getSeconds();
-  var m = d.getMinutes();
-  var h = d.getHours();
-  span.textContent = 
-    ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
-}
-
-setInterval(time, 1000);
 </script>
 
 <svelte:head>
@@ -53,6 +40,5 @@ setInterval(time, 1000);
 	</div>
 	<p class="prose px-4 dark:prose-invert sm:px-8">
 		<small>&copy; Copyright 2022, scifiblog</small>
-		<span id="span"></span>
 	</p>
 </footer>
