@@ -69,11 +69,13 @@
 			Featured Posts
 		</h3>
 		<div class="flex flex-col gap-6 md:flex-row">
+			<FeatureCard title="Interstellar" href="/interstellar" stringData="Oct 2022" />
 			<FeatureCard
-				title="Interstellar"
-				href="/interstellar"
-				stringData="Oct 2022"
+				title="Moving to a GitHub CMS"
+				href="/moving-to-a-github-cms"
+				stringData="Jan 2022"
 			/>
+			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
 		</div>
 	</section>
 	<!-- <section class="w-full mb-16">
