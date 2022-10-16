@@ -96,9 +96,7 @@
 	</div>
 	<p class="prose px-4 dark:prose-invert sm:px-8">
 		<small>&copy; Copyright 2022, scifiblog</small>
-		 <div class="date-time">
         <span class="date">{getWeekDay(currentDateTime).substr(0, 3)} {getMonth(currentDateTime).substr(0, 3)} {getDate(currentDateTime)}</span>
         <span class="time">{getHour(currentDateTime)}:{getMinute(currentDateTime)}:{getSeconds(currentDateTime)} {getMeridiem(currentDateTime)}</span>
-    </div>
 	</p>
 </footer>
