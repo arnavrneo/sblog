@@ -46,7 +46,7 @@
 				This is
 
 				<span
-					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-sky-500"
+					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500"
 				>
 					<span class="relative text-neutral-900 skew-y-3">{SITE_TITLE}</span>
 				</span>
