@@ -42,14 +42,14 @@
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
-			<div class="flex flex-col hidden md:flex-row md:gap-x-10">
+			<div class="flex flex-col md:flex-row md:gap-x-10">
 			<h1 class="mb-3 text-3xl font-montserrat font-bold tracking-tight text-black dark:text-white md:text-5xl">
 				This is
 
 				<span
 					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 "
 				>
-					<span class="relative text-slate-100 skew-y-3 skew-y-3">{SITE_TITLE}</span>
+					<span class="relative text-slate-100 skew-y-3 skew-y-3 sm:hidden">{SITE_TITLE}</span>
 				</span>
 				!
 			</h1>
