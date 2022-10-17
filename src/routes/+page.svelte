@@ -51,6 +51,7 @@
 					<span class="relative text-slate-100 skew-y-3 skew-y-3">{SITE_TITLE}</span>
 				</span>
 				!
+				<img src="/logo.png" class="rounded-full" alt="Avatar">
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				write what you want to write.
