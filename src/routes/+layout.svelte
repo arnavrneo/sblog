@@ -95,8 +95,10 @@
 		</div>
 	</div>
 	<p class="prose px-4 dark:prose-invert sm:px-8">
-		<small>&copy; Copyright 2022, scifiblog</small>
-        <span class="date">{getWeekDay(currentDateTime).substr(0, 3)} {getMonth(currentDateTime).substr(0, 3)} {getDate(currentDateTime)}</span>
+		<small>&copy; Copyright 2022, Cosmos</small>
+		<br/>
+	ISS time	
+        <span class="date">{getWeekDay(currentDateTime).substr(0, 3)} {getMonth(currentDateTime).substr(0, 3)} {getDate(currentDateTime)}</span><br/>
         <span class="time">{getHour(currentDateTime)}:{getMinute(currentDateTime)}:{getSeconds(currentDateTime)} {getMeridiem(currentDateTime)}</span>
 	</p>
 </footer>
