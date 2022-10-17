@@ -23,7 +23,7 @@
 		}
 	}
 	
-	let on_off = document.querySelector('.music .title');
+	let on_off = document.querySelector('.title');
 	let audio = document.querySelector('.musicOn audio');
 
 	on_off.onclick = function() {
@@ -46,8 +46,10 @@
 	<ul class="ml-[-0.60rem] flex">
 		<li>
 			<NavLink href="/">
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 px-1 ring-orange-400" width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" /> <circle cx="12" cy="12" r="7" /> </svg>
-				
+			<div class="musicOn">
+    				<audio id="audio" style="display:none;" src="http://www.sousound.com/music/jingle/jingle_02.mp3" controls autoplay loop>
+ 			 </div>
+				<svg xmlns="http://www.w3.org/2000/svg" class="title h-9 w-9 px-1 ring-orange-400" width="26" height="26" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" /> <circle cx="12" cy="12" r="7" /> </svg>
 			</NavLink>
 		</li>
 		<li>
@@ -104,14 +106,6 @@
 				/>
 			</svg>
 		</a>
-		<button class='ml-1 flex h-9 w-9 items-center justify-center rounded-lg'>
-			<div class="musicOn">
-    				<audio id="audio" style="display:none;" src="http://www.sousound.com/music/jingle/jingle_02.mp3" controls autoplay loop>
- 			 </div>
- 			 <div class="music">
-   			 	<h1 class="title">Music</h1>
-  			</div>
-		</button>
 		<button
 			aria-label="Toggle Dark Mode"
 			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg ring-orange-400
