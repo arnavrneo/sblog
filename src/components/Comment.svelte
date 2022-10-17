@@ -47,7 +47,7 @@
 </script>
 
 <div
-	class="mb-4 border-y px-2 pt-4 border-solid rounded-md shadow-lg dark:border-blue-700 sm:border-x sm:border-amber-700 sm:border-opacity-40 sm:px-4"
+	class="mb-4 border-y px-2 pt-4 border-solid rounded-md shadow-lg dark:border-orange-400 shadow-lg shadow-neutral-500 sm:border-x sm:border-amber-700 sm:border-opacity-40 sm:px-4"
 >
 	<div class="md-10 flex flex-row">
 		<img
