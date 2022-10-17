@@ -49,11 +49,11 @@
 				<span
 					class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 "
 				>
-					<span class="relative text-slate-100 skew-y-3 skew-y-3 sm:hidden">{SITE_TITLE}</span>
+					<span class="relative text-slate-100 skew-y-3 skew-y-3">{SITE_TITLE}</span>
 				</span>
 				!
 			</h1>
-				<img src="/logo.png" class="rounded-full h-20 w-20 md:h-36 w-36" alt="Avatar">
+				<img src="/logo.png" class="rounded-full h-20 w-20 md:h-36 w-36 sm:hidden" alt="Avatar">
 			</div>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				write what you want to write.
