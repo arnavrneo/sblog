@@ -22,6 +22,18 @@
 			isDark = true;
 		}
 	}
+	
+	let on_off = document.querySelector('.music .title');
+	let audio = document.querySelector('.musicOn audio');
+
+	on_off.onclick = function() {
+  		audio.paused ? audio.play() : music_stop();
+	}
+
+	function music_stop() {
+  		audio.pause();
+  		audio.currentTime = 0;
+	}
 </script>
 
 <nav
@@ -92,6 +104,14 @@
 				/>
 			</svg>
 		</a>
+		<button class='ml-1 flex h-9 w-9 items-center justify-center rounded-lg'>
+			<div class="musicOn">
+    				<audio id="audio" style="display:none;" src="http://www.sousound.com/music/jingle/jingle_02.mp3" controls autoplay loop>
+ 			 </div>
+ 			 <div class="music">
+   			 	<h1 class="title">Music</h1>
+  			</div>
+		</button>
 		<button
 			aria-label="Toggle Dark Mode"
 			class="ml-1 flex h-9 w-9 items-center justify-center rounded-lg ring-orange-400
