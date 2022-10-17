@@ -42,6 +42,7 @@
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
+			<div class="flex justify-between">
 			<h1 class="mb-3 text-3xl font-montserrat font-bold tracking-tight text-black dark:text-white md:text-5xl">
 				This is
 
@@ -51,8 +52,9 @@
 					<span class="relative text-slate-100 skew-y-3 skew-y-3">{SITE_TITLE}</span>
 				</span>
 				!
-				<img src="/logo.png" class="rounded-full" alt="Avatar">
 			</h1>
+				<img src="/logo.png" class="rounded-full" alt="Avatar">
+			</div>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				write what you want to write.
 			</h2>
