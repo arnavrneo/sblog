@@ -47,11 +47,11 @@
 </script>
 
 <div
-	class="mb-4 border-y-2 px-2 pt-4 dark:border-blue-700 sm:border-x sm:border-blue-200 sm:border-opacity-40 sm:px-4"
+	class="mb-4 border-y-2 px-2 pt-4 dark:border-blue-700 sm:border-x sm:border-amber-700 sm:border-opacity-40 sm:px-4"
 >
 	<div class="md-10 flex flex-row">
 		<img
-			class="h-12 w-12 rounded-full border-2 border-gray-300"
+			class="h-12 w-12 rounded-full border-2 border-amber-700"
 			alt={`avatar of commenter ${comment.user.login}`}
 			src={comment.user.avatar_url}
 		/>
