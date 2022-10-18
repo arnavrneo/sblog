@@ -77,7 +77,7 @@
 		Articles
 	</h1>
 	<p class="mb-4 text-gray-600 dark:text-gray-400">
-		Welcome to the Article section. There are currently {items.length} articles. Want to search? Use the 
+		Welcome to the Article section. There are currently <span class="text-white">{items.length} articles</span>.<br/>Want to search? Use the 
 		below search bar to filter the article by the title.
 	</p>
 	<div class="relative w-full mb-4">
@@ -166,17 +166,17 @@
 					on:click={() => (isTruncated = false)}
 					class="inline-block p-4 text-lg font-bold tracking-tight text-black bg-blue-100 rounded hover:text-yellow-900 dark:bg-blue-900 dark:text-white hover:dark:text-yellow-200 md:text-2xl"
 				>
-					Load More Posts...
+					Load More Articles...
 				</button>
 			</div>
 		{/if}
 	{:else if search}
 		<div class="prose dark:prose-invert">
-			No posts found for
+			No articles found for
 			<code>{search}</code>.
 		</div>
-		<button class="p-2 bg-slate-500" on:click={() => (search = '')}>Clear your search</button>
+		<button class="p-2" on:click={() => (search = '')}>Clear your search</button>
 	{:else}
-		<div class="prose dark:prose-invert">No blogposts found!</div>
+		<div class="prose dark:prose-invert">No articles found!</div>
 	{/if}
 </section>
