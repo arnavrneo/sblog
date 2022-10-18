@@ -84,7 +84,7 @@
 			bind:value={search}
 			bind:this={inputEl}
 			placeholder="Hit / to search"
-			class="block w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-900 dark:bg-neutral-900 dark:text-gray-100"
+			class="block w-full rounded-md border border-gray-200 bg-white px-4 py-2 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-900 dark:bg-[#111111] dark:text-gray-100"
 		/><svg
 			class="absolute right-3 top-3 h-5 w-5 text-gray-400 dark:text-gray-300"
 			xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@
 					/>
 					<label
 						for="category-{availableCategory}"
-						class="inline-flex w-full cursor-pointer items-center justify-between border border-gray-200 bg-white px-4 py-2 text-gray-500 hover:bg-neutral-900 hover:text-gray-600 peer-checked:border-purple-600 peer-checked:text-purple-600 dark:border-gray-700 dark:bg-neutral-900 dark:text-gray-400 dark:hover:bg-neutral-700 dark:hover:text-gray-300 dark:peer-checked:text-purple-500"
+						class="inline-flex w-full cursor-pointer items-center justify-between border border-gray-200 bg-white px-4 py-2 text-gray-500 hover:bg-[#111111] hover:text-gray-600 peer-checked:border-purple-600 peer-checked:text-purple-600 dark:border-gray-700 dark:bg-[#111111] dark:text-gray-400 dark:hover:bg-neutral-700 dark:hover:text-gray-300 dark:peer-checked:text-purple-500"
 					>
 						{availableCategory}
 					</label>
