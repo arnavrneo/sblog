@@ -55,7 +55,7 @@
 			</h1>
 				<img src="/logo.png" class="hidden md:block rounded-full h-44 w-44" alt="Avatar">
 			</div>
-			<h2 class="mb-4 text-gray-700 dark:text-[#e4c313]">
+			<h2 class="mb-10 text-gray-700 dark:text-[#e4c313]">
 				The sci-fi blog that you all wanted.
 			</h2>
 		</div>
