@@ -55,12 +55,9 @@
 			</h1>
 				<img src="/logo.png" class="hidden md:block rounded-full h-44 w-44" alt="Avatar">
 			</div>
-			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				write what you want to write.
+			<h2 class="mb-4 text-gray-700 dark:text-[#e4c313]">
+				The sci-fi blog that you all wanted.
 			</h2>
-			<p class="mb-16 text-gray-600 dark:text-gray-400">
-				<a href={REPO_URL}>View source here!</a>
-			</p>
 		</div>
 		<!-- <div
 				class="w-[80px] h-[80px] rounded-full sm:w-[176px] sm:h-[136px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25"
@@ -74,11 +71,12 @@
 		<div class="flex flex-col gap-6 md:flex-row">
 			<FeatureCard title="Interstellar" href="/interstellar" stringData="Oct 2022" />
 			<FeatureCard
+				class="hidden"
 				title="Moving to a GitHub CMS"
 				href="/moving-to-a-github-cms"
 				stringData="Jan 2022"
 			/>
-			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
+			<FeatureCard class="hidden" title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
 		</div>
 	</section>
 	<!-- <section class="w-full mb-16">
