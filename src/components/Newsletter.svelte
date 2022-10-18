@@ -53,7 +53,7 @@
 		{#if isNewsletterOpen}
 			<form class="relative my-4" on:submit={onSubmit}>
 				<p
-					class="items-center justify-center rounded bg-gray-100 px-4 pt-1 font-medium text-gray-900 dark:bg-gray-700 dark:text-gray-100"
+					class="items-center justify-center rounded px-4 pt-1 font-medium text-gray-900 dark:text-gray-100"
 					type="submit">Check out the Github to contribute articles!</p
 				>
 			</form>
