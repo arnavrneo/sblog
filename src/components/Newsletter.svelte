@@ -12,7 +12,7 @@
 <!-- my-4 w-full border border-blue-200 bg-blue-50 p-6 dark:border-gray-600 dark:bg-neutral-600 sm:rounded sm:border-x -->
 <section class="mb-16 w-full" id="newsletter">
 	<div
-		class="my-4 w-full rounded-xl bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 p-6 dark:bg-[#3C3B3B] sm:rounded sm:border"
+		class="my-4 w-full rounded-xl ring-4 ring-[#a1641d] p-6 dark:bg-[#3C3B3B] ring-4 ring-[#f37c30] sm:rounded sm:border"
 	>
 		<div class="flex items-center justify-between space-x-4 text-gray-900 dark:text-gray-100">
 			<p class="text-lg font-bold md:text-xl">checksomething should be here</p>
