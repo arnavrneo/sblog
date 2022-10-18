@@ -53,7 +53,7 @@
 				</span>
 				!
 			</h1>
-				<img src="/logo.png" class="hidden md:block rounded-full h-40 w-40" alt="Avatar">
+				<img src="/logo.png" class="hidden md:block rounded-full h-44 w-44" alt="Avatar">
 			</div>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				write what you want to write.
