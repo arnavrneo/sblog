@@ -76,7 +76,7 @@
 	<slot />
 </main>
 
-<footer class="mx-auto mb-8 flex w-full max-w-2xl flex-col items-start justify-center">
+<footer class="mx-auto mb-8 flex w-full max-w-2xl flex-col items-start justify-center dark:bg-[#2e2e2e]">
 	<hr class="border-1 mb-8 w-full border-gray-200 dark:border-gray-800" />
 	<div class="grid w-full max-w-2xl grid-cols-1 gap-4 px-4 pb-16 sm:grid-cols-2 sm:px-8">
 		<div class="flex flex-col space-y-4">
@@ -96,7 +96,7 @@
 	</div>
 	<p class="prose px-4 dark:prose-invert sm:px-8">
 		<small>&copy; Copyright 2022, Cosmos</small>
-		<br/>
+		<br/><br/>
 	International Space Station Time now: <br/>	
         <span class="date">{getWeekDay(currentDateTime).substr(0, 3)} {getMonth(currentDateTime).substr(0, 3)} {getDate(currentDateTime)}</span><br/>
         <span class="time">{getHour(currentDateTime)}:{getMinute(currentDateTime)}:{getSeconds(currentDateTime)} {getMeridiem(currentDateTime)}</span>
