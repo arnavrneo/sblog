@@ -175,7 +175,7 @@
 			No articles found for
 			<code>{search}</code>.
 		</div>
-		<button class="p-2" on:click={() => (search = '')}>Clear your search</button>
+		<button class="p-2 text-black dark:text-white" on:click={() => (search = '')}>Clear your search</button>
 	{:else}
 		<div class="prose dark:prose-invert">No articles found!</div>
 	{/if}
