@@ -42,7 +42,7 @@
 >
 	<div class="flex flex-col-reverse items-start sm:flex-row">
 		<div class="flex flex-col pr-8">
-			<div class="flex flex-col item-center justify-between md:flex-row gap-x-8">
+			<div class="flex flex-col item-center justify-between md:flex-row gap-x-7">
 			<h1 class="mb-3 text-3xl font-montserrat font-bold tracking-tight text-black dark:text-white md:text-6xl">
 				This is
 
@@ -53,7 +53,7 @@
 				</span>
 				!
 			</h1>
-				<img src="/logo.png" class="hidden md:block rounded-full h-36 w-36" alt="Avatar">
+				<img src="/logo.png" class="hidden md:block rounded-full h-40 w-40" alt="Avatar">
 			</div>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
 				write what you want to write.
