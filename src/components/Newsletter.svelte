@@ -53,7 +53,7 @@
 		{#if isNewsletterOpen}
 			<form class="relative my-4" on:submit={onSubmit}>
 				<div
-					class="items-center justify-center rounded px-4 pt-1 font-medium text-gray-900 dark:text-gray-100"
+					class="items-center justify-center px-4 pt-1 font-medium text-gray-900 dark:text-gray-100"
 					type="submit">
 					<ul>
 						<li>Check out our <a class="p-1 text-gray-800 transition-all hover:ring-orange-400 dark:text-gray-200 dark:hover:ring-orange-400 sm:px-3 sm:py-2 md:inline-block" href="https://github.com/arnavrneo/sblog">Github</a> about the process!</li>
