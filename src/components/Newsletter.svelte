@@ -12,10 +12,10 @@
 <!-- my-4 w-full border border-blue-200 bg-blue-50 p-6 dark:border-gray-600 dark:bg-neutral-600 sm:rounded sm:border-x -->
 <section class="mb-16 w-full" id="newsletter">
 	<div
-		class="my-4 w-full rounded-xl ring-2 ring-[#a1641d] p-6 dark:ring-2 ring-[#f37c30] sm:rounded sm:border"
+		class="my-4 w-full rounded-xl ring-4 ring-[#a1641d] p-6 dark:ring-4 ring-[#f37c30] sm:rounded-xl sm:border"
 	>
 		<div class="flex items-center justify-between space-x-4 text-gray-900 dark:text-gray-100">
-			<p class="text-lg font-bold md:text-xl">Wanna contribute?</p>
+			<p class="text-lg font-bold md:text-xl">Want to contribute?</p>
 			<button
 				aria-label="Toggle CTA"
 				class="flex h-9 w-9  items-center justify-center rounded-lg ring-gray-300 transition-all hover:ring-2"
@@ -54,7 +54,12 @@
 			<form class="relative my-4" on:submit={onSubmit}>
 				<p
 					class="items-center justify-center rounded px-4 pt-1 font-medium text-gray-900 dark:text-gray-100"
-					type="submit">Check out the Github to contribute articles!</p
+					type="submit">
+					<ul>
+						<li>Check out our <a class="p-1 text-gray-800 transition-all hover:ring-orange-400 dark:text-gray-200 dark:hover:ring-orange-400 sm:px-3 sm:py-2 md:inline-block" href="https://github.com/arnavrneo/sblog">Github</a> about the process!</li>
+						<li>Can be something else here.</li>
+					</ul>
+					 </p
 				>
 			</form>
 <!-- 			<p class="text-sm text-gray-800 dark:text-gray-200">
