@@ -52,15 +52,14 @@
 		</div>
 		{#if isNewsletterOpen}
 			<form class="relative my-4" on:submit={onSubmit}>
-				<p
+				<div
 					class="items-center justify-center rounded px-4 pt-1 font-medium text-gray-900 dark:text-gray-100"
 					type="submit">
 					<ul>
 						<li>Check out our <a class="p-1 text-gray-800 transition-all hover:ring-orange-400 dark:text-gray-200 dark:hover:ring-orange-400 sm:px-3 sm:py-2 md:inline-block" href="https://github.com/arnavrneo/sblog">Github</a> about the process!</li>
 						<li>Can be something else here.</li>
 					</ul>
-					 </p
-				>
+					 </div>
 			</form>
 <!-- 			<p class="text-sm text-gray-800 dark:text-gray-200">
 				3 subscribers including my Mom – <a href="/#newsletter">23 issues</a>
