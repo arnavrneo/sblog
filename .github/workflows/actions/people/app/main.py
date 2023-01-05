@@ -15,7 +15,7 @@ github_graphql_url = "https://api.github.com/graphql"
 
 issues_query = """
 query Q($after: String) {
-  repository(name: "fastapi", owner: "tiangolo") {
+  repository(name: "LightPredict", owner: "arnavrneo") {
     issues(first: 100, after: $after) {
       edges {
         cursor
@@ -48,7 +48,7 @@ query Q($after: String) {
 
 prs_query = """
 query Q($after: String) {
-  repository(name: "fastapi", owner: "tiangolo") {
+  repository(name: "LightPredict", owner: "arnavrneo") {
     pullRequests(first: 100, after: $after) {
       edges {
         cursor
@@ -96,7 +96,7 @@ query Q($after: String) {
 
 sponsors_query = """
 query Q($after: String) {
-  user(login: "tiangolo") {
+  user(login: "arnavrneo") {
     sponsorshipsAsMaintainer(first: 100, after: $after) {
       edges {
         cursor
