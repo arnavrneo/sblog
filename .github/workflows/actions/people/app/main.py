@@ -432,7 +432,7 @@ if __name__ == "__main__":
         settings=settings
     )
     authors = {**issue_authors, **pr_authors}
-    maintainers_logins = {"tiangolo"}
+    maintainers_logins = {"arnav"}
     bot_names = {"codecov", "github-actions", "pre-commit-ci", "dependabot"}
     maintainers = []
     for login in maintainers_logins:
@@ -499,8 +499,8 @@ if __name__ == "__main__":
     github_sponsors = {
         "sponsors": sponsors,
     }
-    people_path = Path("./docs/en/data/people.yml")
-    github_sponsors_path = Path("./docs/en/data/github_sponsors.yml")
+    people_path = Path("people.yml")
+    github_sponsors_path = Path("github_sponsors.yml")
     people_old_content = people_path.read_text(encoding="utf-8")
     github_sponsors_old_content = github_sponsors_path.read_text(encoding="utf-8")
     new_people_content = yaml.dump(
@@ -530,7 +530,7 @@ if __name__ == "__main__":
         ["git", "add", str(people_path), str(github_sponsors_path)], check=True
     )
     logging.info("Committing updated file")
-    message = "👥 Update FastAPI People"
+    message = "👥 Update my People"
     result = subprocess.run(["git", "commit", "-m", message], check=True)
     logging.info("Pushing branch")
     subprocess.run(["git", "push", "origin", branch_name], check=True)
